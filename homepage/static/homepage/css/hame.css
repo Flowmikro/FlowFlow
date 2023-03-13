@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni Sans Pinstripe&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.qw {
+    font-family: Roboto;
+    background-color: rgb(242, 239, 239);
+}
+
+
+/*h2 span {
+  color      : white;
+  font      : bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing    : -1px;
+
+  background    : rgba(0, 0, 0, 0.7);
+  padding      : 10px;
+}
+*/
+
+h2 span {
+  color      : white;
+  font      : bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing    : -1px;
+
+  font-size: 35px;
+  padding      : 10px;
+}
+.displayed {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image {
+    position  : relative;
+    width    : 100%; /* for IE 6 */
+    }
+
+.image>img{
+    height : 567.5px;
+}
+h2 {
+    position  : absolute;
+    top    : 200px;
+    left    : 0;
+    width    : 100%;
+    color: #ffffff;
+    font-family: Roboto;
+
+}
+
+
+
+h2 span.spacer {
+  padding  : 0 5px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(49, 49, 49);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #921a1a;
+    color: white;
+}
+
+.text1 {
+    font-family: Alumni Sans Pinstripe;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+
+.cont {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(2);
+
+}
+
+.pho>img{
+    width: 100%;
+}
+
+.pho {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pho {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.bottom-left {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.bottom-leftt {
+    font-family: Alumni Sans Pinstripe;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 40px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.gg {
+    background-color: rgb(255, 255, 255);
+}
+
+.pho1>img {
+    width: 100%;
+}
+
+
+
+.carousel-item active {
+    position  : relative;
+    width    : 100%; /* for IE 6 */
+    }
+
+.carousel-item active>img{
+    height : 567.5px;
+}
+h2 {
+    position  : absolute;
+    top    : 200px;
+    left    : 0;
+    width    : 100%;
+}
+
+
+h2 span.spacer {
+  padding  : 0 5px;
+}
+
+.text22 {
+    font-family: Alumni Sans Pinstripe;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+.cont1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(2);
+
+}
+
+.bottom-lefttе {
+    font-family: Alumni Sans Pinstripe;
+
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    font-size: 40px;
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+}
+
+
+
+.v {
+    width: 100%;
+    background-color: #921a1a;
+    height: 100%;
+}
+
+
+.s {
+    width: 10000px;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.df {
+    background-color: rgb(39, 38, 40);
+    width: 100000px;
+    height: 260px;
+
+}
+
+.tr {
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.tr>a {
+    color: rgb(255, 255, 255);
+}
+
+.tr>a {
+  color: #ffffff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.tr>a:after {
+  content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.tr>a:hover:after {
+  content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+.pho>a {
+    color: #00bfff; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.pho>a:visited {
+    color: #8a2be2; /* Цвет посещённой ссылки */
+}
+.pho>a:hover {
+    color: #f66d52; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+}

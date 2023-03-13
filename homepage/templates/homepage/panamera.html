@@ -1,0 +1,61 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+
+{% block link %}<link rel="stylesheet" href="{% static 'homepage/css/car.css' %}" />{% endblock %}
+{% block title %}Porsche Panamera{% endblock %}
+{% block content %}
+
+    <div id="tekst_sverhu_kartinki">
+
+        <img  class="im" src="https://wallpaperaccess.com/full/1260463.jpg" alt="Текст сверху картинки">
+
+        <div class="tekst_sverhu_kartinki_1">
+
+        <span><h1>Дизайн.</h1></span><br>
+
+        <span>Мы довольно рано задались одним вопросом: должен ли спортивный седан выглядеть, как седан? модели Panamera отвечают на этот вопрос недвусмысленным “нет”. Причем каждая по-своему.</span>
+
+        </div>
+
+        </div>
+    <div id="tekst_sverhu_kartinki">
+
+            <img  class="im" src="https://www.porsche-izhevsk.ru/photos/site/news/IWwS75hXtAyGEbWqGU751iaxmAtDXbeL.jpg" alt="Текст сверху картинки">
+
+            <div class="tekst_sverhu_kartinki_1">
+
+            <span><h1>Комфорт.</h1></span><br>
+
+            <span>
+                В кокпите все ориентировано на Ваши потребности, чтобы Вы могли сосредоточиться на своих целях. И на максимально спортивных путях их достижения. При этом в задней части салона царит спокойная и непринужденная обстановка. Здесь достаточно места для членов Вашей семьи, друзей или коллег. А что дальше? Большой багажник с широко открывающейся крышкой. Складывающиеся спинки заднего сиденья позволяют перевозить крупномерный багаж. Возможно, это нетипично для спортивного автомобиля, но зато типично для Panamera.
+
+            </span>
+
+            </div>
+
+            </div>
+    <div id="tekst_sverhu_kartinki">
+
+                <img  class="im" src="https://porsche.ua/storage/local/galleryItems/image/panamera16-1.jpg" alt="Текст сверху картинки">
+
+                <div class="tekst_sverhu_kartinki_1">
+
+                <span><h1>Динамика.</h1></span><br>
+
+                <span>
+                    Достижение высоких целей требует сосредоточенности. На своих силах. На самом главном. Именно это идеально отражает аббревиатура, которая в сочетании с именем Porsche стала воплощением неподдельного удовольствия от вождения: GTS.
+                </span>
+
+                </div>
+
+    </div>
+</div>
+<div class="lol">
+    <p>Вас заинтересовало?</p>
+    <p>Заполните форму, чтобы связаться с дилером Porsche и получить больше информации об интересующей вас модели.</p>
+
+</div>
+<div class="lol1">
+    <a href="{% url 'buy_porsche' %}">Связаться</a>
+</div>
+{% endblock %}

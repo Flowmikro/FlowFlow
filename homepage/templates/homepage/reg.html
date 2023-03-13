@@ -1,0 +1,28 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+{% block link %} <link rel="stylesheet" href="{% static 'homepage/css/standard.css' %}" />{% endblock %}
+{% block title %}Техническое обслуживание Porsche{% endblock %}
+{% block content %}
+<div class="cred">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/454762_Ne1f5JpsBdB8QrXEguvXbap3jxH43DGq.jpg.optimized.jpg" alt="">
+    </div>
+    <div class="bad">
+        <p>Техническое обслуживание</p>
+    </div>
+<div class="mad">
+    <div class="lol2">
+        <p>Записаться на обслуживание</p>
+         <form method="post">
+        {% csrf_token %}
+        <p>Ведите имя: </p>{{ form.name }}
+        <p>Ведите фамилию: </p>{{ form.last_name }}
+        <p>Выберите автомобиль: </p>{{ form.car }}
+        <p>Ведите номер телефона: </p>{{ form.phonenum }}<br>
+        <span>{{ error }}</span>
+            <p></p>
+        <button type="submit">Отправить запрос</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,69 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+
+{% block link %}<link rel="stylesheet" href="{% static 'homepage/css/car.css' %}" />{% endblock %}
+{% block title %}Porsche Macan{% endblock %}>
+
+{% block content %}
+
+    <div id="tekst_sverhu_kartinki">
+
+        <img  class="im" src="https://media.porsche.com/mediakit/macan-t/01-photos/01-01-media-drive/pure-white-s-go-6101/image-thumb__53230__mk2-modal-item/porsche_macan_t_w-8_high.jpg " alt="Текст сверху картинки">
+
+        <div class="tekst_sverhu_kartinki_1">
+
+        <span><h1>Воплощение решительности.</h1></span><br>
+
+        <span>
+            5 дверей, 5 мест и уникальный, неповторимый и неудержимый характер. В своем новейшем поколении Macan остается спортивным автомобилем в сегменте компактных SUV. С самого первого взгляда гены Porsche выдает ниспадающая линия крыши: так называемая линия Flyline наделяет Macan типичным для спорткара силуэтом.
+
+        </span>
+
+        </div>
+
+        </div>
+    <div id="tekst_sverhu_kartinki">
+
+            <img  class="im" src="https://www.hdcarwallpapers.com/download/porsche_macan_turbo_2019_4k_interior-5120x2880.jpg" alt="Текст сверху картинки">
+
+            <div class="tekst_sverhu_kartinki_1">
+
+            <span><h1>Ваша новая зона комфорта.</h1></span><br>
+
+            <span>Салон Macan создан с учетом требований высокой динамики и позволяет идеально интегрировать водителя в автомобиль. Спортивные передние сиденья создают типичное для Macan ощущение: Вы сидите высоко над дорогой, однако прекрасно чувствуете ее. Кроме того, в любой момент обеспечивается оптимальная обзорность. А идеальная эргономика позволяет держать ситуацию под контролем.
+
+            </span>
+
+            </div>
+
+            </div>
+    <div id="tekst_sverhu_kartinki">
+
+                <img  class="im" src="https://i.infocar.ua/i/12/3314/1200x630.jpg" alt="Текст сверху картинки">
+
+                <div class="tekst_sverhu_kartinki_1">
+
+                <span><h1>Вы хотите повысить уровень адреналина? Вызов принят.</h1></span><br>
+
+                <span>
+                    Macan не случайно считается мощным источником эндорфинов в городской среде. Его отличают типичные для Porsche мощные высокооборотистые двигатели с чуткими реакциями. А также точная работа полного привода и выдающаяся управляемость, которая – как и удовольствие от вождения – поднимается на еще более высокий уровень благодаря опциональным системам.
+                </span>
+
+                </div>
+
+    </div>
+
+
+
+    </div>
+
+
+<div class="lol">
+    <p>Вас заинтересовало?</p>
+    <p>Заполните форму, чтобы связаться с дилером Porsche и получить больше информации об интересующей вас модели.</p>
+
+</div>
+<div class="lol1">
+    <a href="{% url 'buy_porsche' %}">Связаться</a>
+</div>
+{% endblock %}

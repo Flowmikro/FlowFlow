@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni Sans Pinstripe&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.zapa {
+    font-family: Roboto;
+}
+
+.body {
+    background-color: rgb(255, 255, 255);
+}
+
+.cont1>img {
+    width: 950px;
+    float: right;
+}
+
+.cont>h1 {
+    margin-bottom: 150px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: 1010px;
+    width: 400px
+
+}
+
+
+.cont>p {
+
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 1010px;
+    width: 400px
+}
+
+
+.im{
+    width: 100%;
+}
+
+div#tekst_sverhu_kartinki {
+
+
+    position: relative;
+
+    }
+
+    .tekst_sverhu_kartinki_1 {
+
+    padding-left: 30px;
+    position: absolute;
+
+    bottom: 10%;
+
+    text-transform: uppercase;
+
+    width: 800px;
+
+    color: #ffffff;}
+
+    .tekst_sverhu_kartinki_1 span {
+
+        font:  Helvetica, Sans-Serif;
+
+
+
+
+
+}
+
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container>img {
+    width: 100%;
+}
+
+
+/* Top left text */
+.top-left {
+    font-family: Roboto;
+    font-size: 40px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.top-left>p {
+
+
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: 1010px;
+        width: 400px
+
+
+}
+
+
+.er{
+
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 70px;
+
+}
+
+.lol{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.lol>p{
+   font-size: 30px;
+}
+
+.lol1{
+    padding-left: 50px;
+}
+
+
+
+
+.lol1>a{
+    font-size: 30px;
+    border: 1px solid #000000;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 8px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}

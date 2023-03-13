@@ -1,0 +1,54 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{% static 'homepage/css/base.css' %}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{% block title %} {% endblock %}</title>
+    {% block link %} {% endblock %}
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    {% block img %}{% endblock %}
+</head>
+
+<body class="qw">
+    <div>
+        <a href="{% url 'home' %}"><img class="displayed" src="https://www.porsche-moscow.ru/svg/porsche-svg.svg" alt=""></a>
+    </div>
+    <div class="topnav">
+        <a class="active" href="{% url 'home' %}">Главная</a>
+        <a href="{% url 'fin_ser' %}">Финансовые услуги</a>
+        <a href="{% url 'contacts' %}">Контакты</a>
+         <a href="{% url 'service' %}">Сервис</a>
+
+    </div>
+{% block content %}
+
+{% endblock %}
+
+
+    <div class="s">
+        <p></p>
+    </div>
+
+    <div class="df">
+        <div class="tr">© 2023 Порше Центр Москва | <a href="{% url 'rights' %}">Правовое уведомление</a> | <a href="{% url 'data_processing_policy' %}">Политика обработки персональных данных</a>
+            <p></p>
+            <br /> Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер<br /> и ни при каких условиях не является публичной офертой,определяемой положениями статьи 437 (2) Гражданского <br />кодекса Российской Федерации. Окончательную стоимость автомобилей Porsche<br /> уточняйте у менеджеров отдела продаж.
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>

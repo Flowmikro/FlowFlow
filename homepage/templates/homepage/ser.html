@@ -1,0 +1,82 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+{% block link %} <link rel="stylesheet" href="{% static 'homepage/css/fin.css' %}" />{% endblock %}
+{% block title %}Техническое обслуживание{% endblock %}
+{% block content %}
+    <div class="bad">
+        <p>Услуги и Сервис Porsche</p>
+    </div>
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/444205_LrBHDMUo06rEIScdwCbnQLqUDUjF8y1u.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Запись на сервис</p><br>
+            <div class="lol1">
+                <p>Здесь Вы можете оставить запрос на прохождение технического и</p>
+                <p>сервисного обслуживания Вашего автомобиля.</p>
+                <div class="lol2">
+                    <a href="{% url 'action' %}">Больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/454762_EiGmYD8giDxPyRxbvPp5SgSNnCfxNU05.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Техническое обслуживание</p><br>
+            <div class="lol1">
+                <p>Узнайте больше о межсервисных интервалах и других нюансах</p>
+                <p>птехнического обслуживания автомобилей Porsche.</p>
+                <div class="lol2">
+                    <a href="{% url 'servicing' %}">Больше</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/454765_ugBHb2mSW04qBaSnke3EpK6UcF4kgkq1.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Сезонные проверки</p><br>
+            <div class="lol1">
+
+                <p>На основе тщательно составленного листа проверки мы внимательно</p>
+                <p>проверим автомобиль и наилучшим образом подготовим его.</p>
+                <div class="lol2">
+                    <a href="{% url 'seasonal_checks' %}">Больше</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/454769_jtbPE4bT7XS1VkrFYppCS0tIjV6nfUJs.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Запасные части</p><br>
+            <div class="lol1">
+                <p>С оригинальными запасными частями Porsche Ваш автомобиль</p>
+                <p>остается таким, каким и был - настоящим Porsche.</p>
+                <div class="lol2">
+                    <a href="{% url 'spares' %}">Больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/454768_UVIlWeJfUtwouAEeixoMjGOY1Uew4jd3.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Дополнительное оборудование</p><br>
+            <div class="lol1">
+                <p>Каждый Порше уникален. Еще индивидуальнее он станет с помощью</p>
+                <p>программы «Технические аксессуары Порше».</p>
+                <div class="lol2">
+                    <a href="{% url 'tequipment' %}">Больше</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

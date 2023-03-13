@@ -1,0 +1,72 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+
+{% block link %}<link rel="stylesheet" href="{% static 'homepage/css/car.css' %}" />{% endblock %}
+{% block title %}Porsche 911{% endblock %}
+{% block content %}
+
+    <div id="tekst_sverhu_kartinki">
+
+        <img  class="im" src="https://wallpaperaccess.com/full/8039043.jpg " alt="Текст сверху картинки">
+
+        <div class="tekst_sverhu_kartinki_1">
+
+        <span><h1>Дизайн.</h1></span><br>
+
+        <span>Сочетание традиций и современности: культовый Flyline и сплошная световая полоса.</span>
+
+        </div>
+
+        </div>
+    <div id="tekst_sverhu_kartinki">
+
+            <img  class="im" src="https://rolf-yasenevo.ru/uploads/stock/porsche/911_carrera/99ed69ea00405d2c85db1ac4637d71d6.jpeg" alt="Текст сверху картинки">
+
+            <div class="tekst_sverhu_kartinki_1">
+
+            <span><h1>Комфорт.</h1></span><br>
+
+            <span>Спортивный, эргономичный, неподвластный времени: кокпит со спортивным рулевым колесом GT, приборной панелью и спортивными сиденьями Plus.</span>
+
+            </div>
+
+            </div>
+    <div id="tekst_sverhu_kartinki">
+
+                <img  class="im" src="https://wallpaperaccess.com/full/1707738.jpg" alt="Текст сверху картинки">
+
+                <div class="tekst_sverhu_kartinki_1">
+
+                <span><h1>Динамика спорткара.</h1></span><br>
+
+                <span>
+                Мощный шестицилиндровый оппозитный двигатель битурбо в задней части.
+                Точно работающая коробка передач Porsche Doppelkupplung (PDK).
+                Системы для повышения динамики движения.
+                </span>
+
+                </div>
+
+    </div>
+
+
+
+
+
+
+<div class="lol">
+    <p>Вас заинтересовало?</p>
+    <p>Заполните форму, чтобы связаться с дилером Porsche и получить больше информации об интересующей вас модели.</p>
+
+</div>
+<div class="lol1">
+    <a href="{% url 'buy_porsche' %}">Связаться</a>
+</div>
+{% endblock  %}
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+{% block link %} <link rel="stylesheet" href="{% static 'homepage/css/fin.css' %}" />{% endblock %}
+{% block title %}Финансовые услуги Porsche{% endblock %}
+{% block content %}
+<div class="cred">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/444132_mmarGKwD2IbPYgKaAlxv450ug5GXENAR.jpg.optimized.jpg" alt="">
+    </div>
+    <div class="bad">
+        <p>Финансовые услуги Porsche</p>
+    </div>
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/444138_6JTvwVOO1tNC7FxTdDdrggEKy1eb7tSe.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Кредитование</p><br>
+            <div class="lol1">
+
+                <p>Простой и удобный способ стать собственником</p>
+                <p>эксклюзивного автомобиля уже сейчас.</p>
+                <div class="lol2">
+                    <a href="{% url 'credit' %}">Обзор</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/444139_KUsw1rDLeyMEVTb1Bx0mbXgSc41KWLpI.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Лизинг</p><br>
+            <div class="lol1">
+
+                <p>Лизинг – доступное финансирование для</p>
+                <p>лиц желающих приобрести автомобиль Porsche.</p>
+                <div class="lol2">
+                    <a href="{% url 'leasing' %}">Обзор</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <img src="https://www.porsche-ekaterinburg.ru/photos/header/445100_WFE6O4AvlQtD5O1fM0KSctrXlJ5MVjLW.jpg" alt="" align="left" >
+        <div class="lol">
+            <p>Страхование</p><br>
+            <div class="lol1">
+                <p> Гибкие условия страхования могут удовлетворить самых</p>
+                <p>взыскательных клиентов Porsche.</p>
+                <div class="lol2">
+                    <a href="{% url 'insurance' %}">Обзор</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

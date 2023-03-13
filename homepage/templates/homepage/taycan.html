@@ -1,0 +1,69 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+
+{% block link %}<link rel="stylesheet" href="{% static 'homepage/css/car.css' %}" />{% endblock %}
+{% block title %}Porsche Taycan{% endblock %}
+{% block content %}
+
+    <div id="tekst_sverhu_kartinki">
+
+        <img  class="im" src="https://cdn.motor1.com/images/mgl/kJWEN/s1/2020-porsche-taycan.jpg" alt="Текст сверху картинки">
+
+        <div class="tekst_sverhu_kartinki_1">
+
+        <span><h1>Дизайн.</h1></span><br>
+
+        <span>Лаконичность, экспрессивность, неподвластность времени – отличительные признаки Taycan, внешний облик которого подчеркивает динамичная линия Flyline. </span>
+
+        </div>
+
+        </div>
+    <div id="tekst_sverhu_kartinki">
+
+            <img  class="im" src="https://cdn.motor1.com/images/mgl/bg6xoj/s1/porsche-taycan-sport-turismo-2022.jpg" alt="Текст сверху картинки">
+
+            <div class="tekst_sverhu_kartinki_1">
+
+            <span><h1>Комфорт.</h1></span><br>
+
+            <span>Taycan не только приближает будущее, но и позволяет без проблем добраться до самых удаленных мест.</span>
+
+            </div>
+
+            </div>
+    <div id="tekst_sverhu_kartinki">
+
+                <img  class="im" src="http://www.pnzdrive.ru/uploads/news/2020/12.2020/2/2/Porsche-Taycan-Turbo-S-Road-Atlanta-11.jpg" alt="Текст сверху картинки">
+
+                <div class="tekst_sverhu_kartinki_1">
+
+                <span><h1>800-вольтная архитектура</h1></span><br>
+
+                <span>
+                для porsche всегда был важен результат. во всех отношениях.
+                800-вольтная архитектура допускает мощность зарядки дл 270квт, тем самым гарантирует постоянную готовность автомобиля.
+                </span>
+
+                </div>
+
+    </div>
+
+
+
+
+
+
+<div class="lol">
+    <p>Вас заинтересовало?</p>
+    <p>Заполните форму, чтобы связаться с дилером Porsche и получить больше информации об интересующей вас модели.</p>
+
+</div>
+<div class="lol1">
+    <a href="{% url 'buy_porsche' %}">Связаться</a>
+</div>
+
+{% endblock %}
+
+
+
+

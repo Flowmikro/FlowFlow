@@ -1,0 +1,61 @@
+{% extends "homepage/base.html" %}
+{% load static %}
+
+{% block link %}<link rel="stylesheet" href="{% static 'homepage/css/car.css' %}" />{% endblock %}
+{% block title %}Porsche Cayenne{% endblock %}
+
+
+{% block content %}
+    <div id="tekst_sverhu_kartinki">
+
+        <img  class="im" src="https://www.hdcarwallpapers.com/walls/porsche_cayenne_turbo_gt_2022_4k-HD.jpg" alt="Текст сверху картинки">
+
+        <div class="tekst_sverhu_kartinki_1">
+
+        <span><h1>Дизайн.</h1></span><br>
+
+        <span>Благодаря динамичному дизайну и 5 дверям, которые открыты для любых приключений, модели Cayenne привносят командный дух в мир спортивных автомобилей. Тем самым восприятие Porsche становится еще более многогранным.</span>
+
+        </div>
+
+        </div>
+    <div id="tekst_sverhu_kartinki">
+
+            <img  class="im" src="https://img5.goodfon.ru/wallpaper/nbig/8/43/porsche-cayenne-turbo-coupe-2019-salon-1.jpg" alt="Текст сверху картинки">
+
+            <div class="tekst_sverhu_kartinki_1">
+
+            <span><h1>Практичность.</h1></span><br>
+
+            <span>Среди других типичных достоинств всех моделей Cayenne – просторный салон и вместительный багажник, объем которого при сложенном заднем сиденье можно более чем удвоить. Разнообразные возможности индивидуализации позволяют дополнительно повысить практичность автомобиля. Иными словами, было бы жалко использовать его исключительно для личных поездок.</span>
+
+            </div>
+
+            </div>
+    <div id="tekst_sverhu_kartinki">
+
+                <img  class="im" src="https://www.hdcarwallpapers.com/download/porsche_cayenne_turbo_gt_2022_4k_2-3840x2160.jpg" alt="Текст сверху картинки">
+
+                <div class="tekst_sverhu_kartinki_1">
+
+                <span><h1>Концепция.</h1></span><br>
+
+                <span>
+                    Если мы что-то любим, то никогда не скажем “хватит” или “достаточно”. Если что-то доставляет радость, то этим невозможно насытиться. Энтузиазм должен развиваться. Поэтому мы в очередной раз сделали дизайн моделей GTS более энергичным. Повысили динамику. Подчеркнули спортивный характер. С еще большей страстностью и точностью. Или, говоря, иначе, придали им еще больше типичных черт Porsche.
+                </span>
+
+                </div>
+
+    </div>
+
+
+
+<div class="lol">
+    <p>Вас заинтересовало?</p>
+    <p>Заполните форму, чтобы связаться с дилером Porsche и получить больше информации об интересующей вас модели.</p>
+
+</div>
+<div class="lol1">
+    <a href="{% url 'buy_porsche' %}">Связаться</a>
+</div>>
+    {% endblock %}

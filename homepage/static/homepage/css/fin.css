@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni Sans Pinstripe&display=swap');
+
+
+
+
+
+.cred>img{
+    width: 100%;
+    vertical-align: baseline;
+    margin: 0;
+
+}
+
+.bad{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+}
+
+.bad>p{
+    font-family: Alumni Sans Pinstripe;
+    padding-left: 100px;
+    padding-top: 28px;
+    font-size: 34px;
+    margin: 0;
+}
+
+.credit{
+    padding-top: 50px;
+    padding-left: 100px;
+    margin: 0;
+}
+
+.credit>img{
+    width: 500px;
+    margin: 0;
+}
+
+
+.lol{
+    padding-left: 600px;
+    margin: 0;
+}
+
+
+
+.lol>p{
+    font-family: Roboto;
+    font-size: 40px;
+    margin: 0;
+}
+
+.lol1>p{
+    font-family: Alumni Sans Pinstripe;
+    font-size: 30px;
+    margin: 0;
+}
+
+.lol2{
+    padding-top: 20px;
+    margin: 0;
+
+}
+
+.lol2>a{
+    font-family: Alumni Sans Pinstripe;
+    font-size: 30px;
+    border: 1px solid #000000;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.testdrive{
+    padding: 100px;
+
+}

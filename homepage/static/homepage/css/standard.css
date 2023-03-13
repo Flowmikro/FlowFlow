@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni Sans Pinstripe&display=swap');
+
+
+
+.cred>img{
+    width: 100%;
+    vertical-align: baseline;
+    margin: 0;
+
+}
+
+.bad{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+}
+
+.bad>p{
+    font-family: Alumni Sans Pinstripe;
+    padding-left: 100px;
+    padding-top: 28px;
+    font-size: 34px;
+    margin: 0;
+}
+
+.mad{
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-right: 500px;
+}
+
+
