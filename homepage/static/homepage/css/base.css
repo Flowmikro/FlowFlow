@@ -9,11 +9,13 @@
 
 }
 
+/* Add a black background color to the top navigation */
 .topnav {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
 }
 
+/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #ffffff;
@@ -26,11 +28,13 @@
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 0, 0);
+    color: rgb(49, 49, 49);
 }
 
 /* Add a color to the active/current link */
-
+.topnav a.active {
+    color: white;
+}
 .v {
     width: 100%;
     background-color: #921a1a;
@@ -92,3 +96,14 @@
     transition: width 0.5s;  /* Время эффекта */
 }
 
+.pho>a {
+    color: #00bfff; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.pho>a:visited {
+    color: #8a2be2; /* Цвет посещённой ссылки */
+}
+.pho>a:hover {
+    color: #f66d52; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+}

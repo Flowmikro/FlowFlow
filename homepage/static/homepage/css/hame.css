@@ -11,17 +11,6 @@
     background-color: rgb(242, 239, 239);
 }
 
-
-/*h2 span {
-  color      : white;
-  font      : bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing    : -1px;
-
-  background    : rgba(0, 0, 0, 0.7);
-  padding      : 10px;
-}
-*/
-
 h2 span {
   color      : white;
   font      : bold 24px/45px Helvetica, Sans-Serif;
@@ -60,35 +49,6 @@ h2 {
 
 h2 span.spacer {
   padding  : 0 5px;
-}
-
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: rgb(0, 0, 0);
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(49, 49, 49);
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #921a1a;
-    color: white;
 }
 
 .text1 {
@@ -216,71 +176,4 @@ h2 span.spacer {
     width: 100%;
     background-color: #921a1a;
     height: 100%;
-}
-
-
-.s {
-    width: 10000px;
-    height: 250px;
-    background-color: #ffffff;
-}
-
-.df {
-    background-color: rgb(39, 38, 40);
-    width: 100000px;
-    height: 260px;
-
-}
-
-.tr {
-    color: #ffffff;
-    padding: 50px;
-    text-align: center;
-
-}
-
-.tr>a {
-    color: rgb(255, 255, 255);
-}
-
-.tr>a {
-  color: #ffffff; /* Цвет обычной ссылки */
-    position: relative;
-    cursor: pointer;
-    text-decoration: none; /* Убираем подчеркивание */
-}
-.tr>a:after {
-  content: "";
-    display: block;
-    position: absolute;
-    right: 0;
-    bottom: -3px;
-    width: 0;
-    height: 2px; /* Высота линии */
-    background-color: black; /* Цвет подчеркивания при исчезании линии*/
-    transition: width 0.5s; /* Время эффекта */
-}
-
-.tr>a:hover:after {
-  content: "";
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    height: 2px; /* Высота линии */
-    background-color: red; /* Цвет подчеркивания при появлении линии*/
-    transition: width 0.5s;  /* Время эффекта */
-}
-
-.pho>a {
-    color: #00bfff; /* Цвет обычной ссылки */
-    text-decoration: none; /* Убираем подчеркивание */
-}
-.pho>a:visited {
-    color: #8a2be2; /* Цвет посещённой ссылки */
-}
-.pho>a:hover {
-    color: #f66d52; /* Цвет ссылки при наведении на нее курсора мыши */
-    text-decoration: underline; /* Добавляем подчеркивание */
 }

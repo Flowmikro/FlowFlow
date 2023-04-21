@@ -1,8 +1,14 @@
-from .models import Register
+from .models import *
 from django.forms import ModelForm
 
 
-class RegisterForm(ModelForm):
+class ServiceForm(ModelForm):
     class Meta:
-        model = Register
-        fields = ['name', 'last_name', 'car', 'phonenum',]
+        model = Service
+        fields = ['name', 'last_name', 'phonenum', 'car', 'comm']
+
+
+class CarByuForm(ModelForm):
+    class Meta:
+        model = CarBuy
+        fields = ['name', 'last_name', 'phonenum', 'car', 'email']

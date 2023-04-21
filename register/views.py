@@ -1,18 +1,18 @@
 from django.shortcuts import render, redirect
-from .forms import RegisterForm
+from .forms import ServiceForm, CarByuForm
 
 
 def register(request):
     error = ''
     if request.method == 'POST':
-        form = RegisterForm(request.POST)
+        form = CarByuForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('home')
         else:
             error = 'Форма заполнена неверно'
 
-    form = RegisterForm()
+    form = CarByuForm()
 
     data = {
         'form': form,
@@ -25,14 +25,14 @@ def register(request):
 def action(request):
     error = ''
     if request.method == 'POST':
-        form = RegisterForm(request.POST)
+        form = ServiceForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('home')
         else:
             error = 'Форма заполнена неверно'
 
-    form = RegisterForm()
+    form = ServiceForm()
 
     data = {
         'form': form,
@@ -44,14 +44,14 @@ def action(request):
 def reg(request):
     error = ''
     if request.method == 'POST':
-        form = RegisterForm(request.POST)
+        form = ServiceForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('home')
         else:
             error = 'Форма заполнена неверно'
 
-    form = RegisterForm()
+    form = ServiceForm()
 
     data = {
         'form': form,
@@ -63,14 +63,14 @@ def reg(request):
 def buy_porsche(request):
     error = ''
     if request.method == 'POST':
-        form = RegisterForm(request.POST)
+        form = CarByuForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('home')
         else:
             error = 'Форма заполнена неверно'
 
-    form = RegisterForm()
+    form = CarByuForm()
 
     data = {
         'form': form,

@@ -1,9 +1,6 @@
 from django.db import models
 
-
-class Register(models.Model):
-
-    CAR_CHOICES = [
+CAR_CHOICES = [
         ('Porsche 911 Carrera', 'Porsche 911 Carrera'),
         ('Porsche 911 Turbo', 'Porsche 911 Turbo'),
         ('Porsche Cayman', 'Porsche Cayman'),
@@ -16,10 +13,30 @@ class Register(models.Model):
 
     ]
 
+
+class Service(models.Model):
     name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
+    phonenum = models.IntegerField(max_length=11)
     car = models.CharField(choices=CAR_CHOICES, max_length=60)
-    phonenum = models.IntegerField()
+    comm = models.CharField(max_length=1000)
+
+    def __str__(self):
+        return self.name
+
+
+class CarBuy(models.Model):
+    name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=60)
+    email = models.EmailField(max_length=150)
+    phonenum = models.IntegerField(max_length=11)
+    car = models.CharField(choices=CAR_CHOICES, max_length=60)
+
+    def __str__(self):
+        return self.name
+
+
+
 
 
 
